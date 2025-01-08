@@ -25,11 +25,11 @@ jobs:
     - name: Setup GitVersion
       run: dotnet tool install GitVersion.Tool --global --add-source https://api.nuget.org/v3/index.json
     - name: RunGitVersion
-      working-directory: ./src/Bdziam.ExternalDependencyResolver
+      working-directory: ./src/ExternalDependencyResolver
       run: dotnet-gitversion /updateprojectfiles /showconfig /config ../../GitVersion.yml
     - name: Publish Package
       uses: Jacup/publish-nuget@v2.6.0
       with:
-        PROJECT_FILE_PATH: ./src/Bdziam.ExternalDependencyResolver/Bdziam.ExternalDependencyResolver.csproj
+        PROJECT_FILE_PATH: ./src/ExternalDependencyResolver/ExternalDependencyResolver.csproj
         TAG_COMMIT: false
         NUGET_KEY: ${{secrets.NUGET_PUSHKEY}}

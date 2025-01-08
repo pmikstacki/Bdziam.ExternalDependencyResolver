@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>Bdziam External Dependency Resolver</Title>
+        <Authors>Cybernomad</Authors>
+        <Description>Bdziam.ExternalDependencyResolver is a C# library that provides a mechanism to resolve dependencies for a given type using a combination of a service provider and additional dependencies.</Description>
+        <Copyright>2024 Piotr Mikstacki @ CyberNomad</Copyright>
+        <PackageProjectUrl>https://github.com/pmikstacki/Bdziam.ExternalDependencyResolver/</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RepositoryUrl>https://github.com/pmikstacki/Bdziam.ExternalDependencyResolver/</RepositoryUrl>
+        <PackageTags>DependencyInjection;Bdziam;Resolver</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>icon.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+        <None Include="icon.png" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+    </ItemGroup>
+
+</Project>

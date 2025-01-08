@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Bdziam.ExternalDependencyResolver\Bdziam.ExternalDependencyResolver.csproj" />
+      <ProjectReference Include="..\ExternalDependencyResolver\ExternalDependencyResolver.csproj" />
     </ItemGroup>
 
 </Project>

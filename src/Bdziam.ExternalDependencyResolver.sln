@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bdziam.ExternalDependencyResolver", "Bdziam.ExternalDependencyResolver\Bdziam.ExternalDependencyResolver.csproj", "{4842F2E9-5CDD-45C7-AC73-F68B338680FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalDependencyResolver", "ExternalDependencyResolver\ExternalDependencyResolver.csproj", "{1436B9C1-A9CA-4C8D-853E-D4CACB6681B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bdziam.ExternalDependencyResolver.Tests", "Bdziam.ExternalDependencyResolver.Tests\Bdziam.ExternalDependencyResolver.Tests.csproj", "{92DBA35C-5CA7-41A3-8519-A79B34DFF2A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalDependencyResolver.Tests", "ExternalDependencyResolver.Tests\ExternalDependencyResolver.Tests.csproj", "{D6FCFD35-852B-40E4-B29E-D3368933959A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4842F2E9-5CDD-45C7-AC73-F68B338680FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4842F2E9-5CDD-45C7-AC73-F68B338680FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4842F2E9-5CDD-45C7-AC73-F68B338680FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4842F2E9-5CDD-45C7-AC73-F68B338680FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92DBA35C-5CA7-41A3-8519-A79B34DFF2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92DBA35C-5CA7-41A3-8519-A79B34DFF2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92DBA35C-5CA7-41A3-8519-A79B34DFF2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92DBA35C-5CA7-41A3-8519-A79B34DFF2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1436B9C1-A9CA-4C8D-853E-D4CACB6681B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1436B9C1-A9CA-4C8D-853E-D4CACB6681B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1436B9C1-A9CA-4C8D-853E-D4CACB6681B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1436B9C1-A9CA-4C8D-853E-D4CACB6681B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FCFD35-852B-40E4-B29E-D3368933959A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FCFD35-852B-40E4-B29E-D3368933959A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FCFD35-852B-40E4-B29E-D3368933959A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FCFD35-852B-40E4-B29E-D3368933959A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
