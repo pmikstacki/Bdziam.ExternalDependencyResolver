@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
+        <PackageId>Bdziam.ExternalDependencyResolver</PackageId>
         <Title>Bdziam External Dependency Resolver</Title>
         <Authors>Cybernomad</Authors>
         <Description>Bdziam.ExternalDependencyResolver is a C# library that provides a mechanism to resolve dependencies for a given type using a combination of a service provider and additional dependencies.</Description>
