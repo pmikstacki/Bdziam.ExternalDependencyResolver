@@ -30,6 +30,6 @@ jobs:
     - name: Publish Package
       uses: Jacup/publish-nuget@v2.6.0
       with:
-        PROJECT_FILE_PATH: .src/Bdziam.ExternalDependencyResolver/Bdziam.ExternalDependencyResolver.csproj"
+        PROJECT_FILE_PATH: ./src/Bdziam.ExternalDependencyResolver/Bdziam.ExternalDependencyResolver.csproj"
         TAG_COMMIT: false
         NUGET_KEY: ${{secrets.NUGET_PUSHKEY}}
