@@ -32,4 +32,5 @@ jobs:
       with:
         PROJECT_FILE_PATH: ./src/ExternalDependencyResolver/ExternalDependencyResolver.csproj
         TAG_COMMIT: false
+        PACKAGE_NAME: Bdziam.ExternalDependencyResolver
         NUGET_KEY: ${{secrets.NUGET_PUSHKEY}}
